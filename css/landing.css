@@ -108,14 +108,18 @@ body{
      .room-price{ font-weight: 400; font-size: 16px; line-height: 25px; color: #525252;}
      .btn{
         box-shadow: none;
-        /* padding: 10px 35px;
-        border: #9b927c; */
+        
         background: #96772c !important;
         color: #ffffff !important;
      }
 /* what people say section */
 #whatpeoplesay{
     margin: 100px 0;
+    background-color: #fcfcfc;
+}
+.whatpeoplesay-title{
+    font-weight: 600px; font-size: 30px;
+    line-height: 2.6em;
 }
 .whatpeoplesay-content{
     margin-top: 50px;
@@ -136,6 +140,9 @@ margin: 0 10px;
 }
 
      /* Well Equipped Section*/
+     #well-equipped{
+background: #f9f9f9;
+     }
      .wellequipped-title{margin-top: 50px;font-weight: 600; font-size: 30px; line-height: 41px; color: #333;}
      .wellequipped-content{margin-top: 35px;}
      .wellequipped-img{
@@ -152,6 +159,10 @@ margin: 0 10px;
        
     
      /* Footer Section*/
+     .footer-content{
+         margin-top: 50px;
+     }
+
     .footer-link{ font-size: 14px;
         color:#000000; text-decoration: none;
     text-decoration-style: none;}
