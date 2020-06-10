@@ -113,6 +113,27 @@ body{
         background: #96772c !important;
         color: #ffffff !important;
      }
+/* what people say section */
+#whatpeoplesay{
+    margin: 100px 0;
+}
+.whatpeoplesay-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #525252;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.whatpeoplesay-content img{
+height: 100px;
+width: 80px;
+border-radius: 50%;
+margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
 
      /* Well Equipped Section*/
      .wellequipped-title{margin-top: 50px;font-weight: 600; font-size: 30px; line-height: 41px; color: #333;}
@@ -131,14 +152,14 @@ body{
        
     
      /* Footer Section*/
-     td, th {
-         padding: 10px;
-     }
-
+    .footer-link{ font-size: 14px;
+        color:#000000; text-decoration: none;
+    text-decoration-style: none;}
+    .footer-link:hover{
+color: #96772c;
+    }    
      .copyright-footer {
-        text-align: center;
         box-shadow: none;
-        padding: 10px 35px;
         border: none;
         background: #96772c !important;
         color: #ffffff !important;
